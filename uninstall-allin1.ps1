@@ -99,7 +99,7 @@ function Get-LuaFileCount {
 function Uninstall-Plugin {
     Blank; Sep; Log "INFO" "Uninstalling plugin: $name"; Sep; Blank
 
-    $dir = Join-Path $steam "plugins"
+    $dir = Join-Path $steam "millennium\plugins"
     if (-not (Test-Path $dir)) { Log "WARN" "Plugins directory not found."; return }
 
     $pluginPath = $null
