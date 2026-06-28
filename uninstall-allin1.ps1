@@ -276,7 +276,7 @@ $doKeepPlugins = $false
 function Write-Menu {
     Clear-Host
     Sep
-    Write-Host "  Potatools Uninstaller  |  .gg/potatools" -ForegroundColor Cyan
+    Write-Host "  Luatools Uninstaller  |  .gg/luatools" -ForegroundColor Cyan
     Sep
     Blank
 
