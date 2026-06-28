@@ -3,7 +3,7 @@ param(
     [int]$Branch # 1 = luatools, 2 = steamtools-collection
 )
 
-$Host.UI.RawUI.WindowTitle = "Potatools Uninstaller | .gg/potatools"
+$Host.UI.RawUI.WindowTitle = "Luatools Uninstaller | .gg/luatools"
 $defaultPluginName = "luatools"
 
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
